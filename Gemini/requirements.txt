@@ -10,3 +10,4 @@ langchain-groq
 faiss-cpu
 langchain_google_genai
 langchain-community
+pdf2image
