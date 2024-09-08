@@ -11,3 +11,7 @@ faiss-cpu
 langchain_google_genai
 langchain-community
 pdf2image
+pathlib
+youtube_transcript_api
+crewai
+crewai_tools
