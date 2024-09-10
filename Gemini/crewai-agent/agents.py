@@ -11,7 +11,7 @@ blog_researcher = Agent(
     goal = 'get the relevant video content for the topic {topic} from Yt channel',
     backstory=("Expert in understanding videos in AI Data Science , Machine Learning and GEN AI and providing suggestion"),
     tools= [yt_tool],
-    llm=llm
+    llm=llm,
     allow_delegation=True
 )
 
