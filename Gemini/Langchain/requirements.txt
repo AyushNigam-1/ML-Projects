@@ -2,5 +2,7 @@ langchain
 python-dotenv
 streamlit
 langchain_community
-ipykernal
 langchain_groq
+fastapi
+langserve
+sse_starlette
