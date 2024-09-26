@@ -9,3 +9,6 @@ sse_starlette
 langchain-chroma
 langchain_huggingface
 bs4
+arxiv
+wikipedia
+faiss-cpu
