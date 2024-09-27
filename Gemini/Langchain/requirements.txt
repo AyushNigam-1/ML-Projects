@@ -12,3 +12,6 @@ bs4
 arxiv
 wikipedia
 faiss-cpu
+duckduckgo-search
+youtube_search
+huggingface_hub
