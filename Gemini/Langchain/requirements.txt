@@ -15,3 +15,8 @@ faiss-cpu
 duckduckgo-search
 youtube_search
 huggingface_hub
+validators
+unstructured
+youtube-transcript-api
+pytube
+numexpr

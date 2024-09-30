@@ -1,4 +1,4 @@
-import validators,streamlit as st
+import validators , streamlit as st
 from langchain.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 from langchain.chains.summarize import load_summarize_chain
@@ -39,7 +39,7 @@ if st.button("Summarize the Content from YT or Website"):
         try:
             with st.spinner("Waiting..."):
                 ## loading the website or yt video data
-                if "youtube.com" in generic_url:
+                if "youtu.be" in generic_url:
                     loader=YoutubeLoader.from_youtube_url(generic_url,add_video_info=True)
                 else:
                     loader=UnstructuredURLLoader(urls=[generic_url],ssl_verify=False,
