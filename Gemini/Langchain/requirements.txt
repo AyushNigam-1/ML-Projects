@@ -20,3 +20,5 @@ unstructured
 youtube-transcript-api
 pytube
 numexpr
+cassio
+PyPDF2
