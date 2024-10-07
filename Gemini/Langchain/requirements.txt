@@ -22,3 +22,4 @@ pytube
 numexpr
 cassio
 PyPDF2
+lamini
