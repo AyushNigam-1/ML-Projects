@@ -7,7 +7,7 @@ research_task = Task(
         "Identity the video {topic}"
         "Get detailed information about the video from the channel"
     ),
-    expected_output="A comprehensive 3 paragraphs long report based on the {topic} of video content"
+    expected_output="A comprehensive 3 paragraphs long report based on the {topic} of video content",
     tools=[yt_tool],
     agent=blog_researcher,
 )
